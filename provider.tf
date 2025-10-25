@@ -8,10 +8,10 @@ terraform {
   backend "s3" {
     bucket = "nextcloud-bucket-s3-v2"
     key    = "dev/terraform.tfstate"
-    region = "sa-east-1"
+    region = "us-east-1"
   }
 }
 
 provider "aws" {
-  region = "sa-east-1"
+  region = "us-east-1"
 }

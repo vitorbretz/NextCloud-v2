@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "nextcloud-bucket-s3-v1"
+    bucket = "nextcloud-bucket-s3-v2"
     key    = "dev/terraform.tfstate"
     region = "sa-east-1"
   }
